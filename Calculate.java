@@ -4,9 +4,9 @@ public class Calculate {
         int num2 = 5;
         
         int sum = num1 + num2;
-        int product = num1 * num2; // <-- ဒီလိုင်းလေး ဖြည့်ပါ
+        int product = num1 * num2; 
         
         System.out.println("Sum: " + sum);
-        System.out.println("Product: " + product); // <-- ဒီလိုင်းလေး ဖြည့်ပါ
+        System.out.println("Product: " + product); 
     }
 }
