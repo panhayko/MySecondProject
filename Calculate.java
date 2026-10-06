@@ -1,11 +1,12 @@
 public class Calculate {
     public static void main(String[] args) {
-        int num1 = 30;
-        int num2 = 59;
+        int num1 = 10;
+        int num2 = 5;
+        
         int sum = num1 + num2;
-
-        System.out.println("First Number: " + num1);
-        System.out.println("Second Number: " + num2);
-        System.out.println("Total Sum: " + sum);
+        int product = num1 * num2; // <-- ဒီလိုင်းလေး ဖြည့်ပါ
+        
+        System.out.println("Sum: " + sum);
+        System.out.println("Product: " + product); // <-- ဒီလိုင်းလေး ဖြည့်ပါ
     }
 }
